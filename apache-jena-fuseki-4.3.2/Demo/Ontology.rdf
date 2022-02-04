@@ -54,10 +54,22 @@
     <rdfs:subClassOf rdf:resource='http://www.w3.org/2000/01/rdf-schema#Class'/>
   </rdf:Class>
 
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Domain'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Domain</rdfs:label>
+    <rdfs:comment>The taxonomic rank Domain</rdfs:comment>
+  </kgo:TaxonRank>
+
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Kingdom'>
     <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
     <rdfs:label>Kingdom</rdfs:label>
     <rdfs:comment>The taxonomic rank Kingdom</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Subkingdom'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Subkingdom</rdfs:label>
+    <rdfs:comment>The taxonomic rank Subkingdom</rdfs:comment>
   </kgo:TaxonRank>
 
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Phylum'>
@@ -66,10 +78,46 @@
     <rdfs:comment>The taxonomic rank Phylum</rdfs:comment>
   </kgo:TaxonRank>
 
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Superphylum'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Superphylum</rdfs:label>
+    <rdfs:comment>The taxonomic rank Superphylum</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Subphylum'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Subphylum</rdfs:label>
+    <rdfs:comment>The taxonomic rank Subphylum</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Infraphylum'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Infraphylum</rdfs:label>
+    <rdfs:comment>The taxonomic rank Infraphylum</rdfs:comment>
+  </kgo:TaxonRank>
+
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Class'>
     <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
     <rdfs:label>Class</rdfs:label>
     <rdfs:comment>The taxonomic rank Class</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Megaclass'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Megaclass</rdfs:label>
+    <rdfs:comment>The taxonomic rank Megaclass</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Superclass'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Superclass</rdfs:label>
+    <rdfs:comment>The taxonomic rank Superclass</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Infraclass'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Infraclass</rdfs:label>
+    <rdfs:comment>The taxonomic rank Infraclass</rdfs:comment>
   </kgo:TaxonRank>
 
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Order'>
@@ -78,10 +126,34 @@
     <rdfs:comment>The taxonomic rank Order</rdfs:comment>
   </kgo:TaxonRank>
 
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Suborder'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Suborder</rdfs:label>
+    <rdfs:comment>The taxonomic rank Suborder</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Superorder'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Order</rdfs:label>
+    <rdfs:comment>The taxonomic rank Superorder</rdfs:comment>
+  </kgo:TaxonRank>
+
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Family'>
     <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
     <rdfs:label>Family</rdfs:label>
     <rdfs:comment>The taxonomic rank Family</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Superfamily'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Superfamily</rdfs:label>
+    <rdfs:comment>The taxonomic rank Superfamily</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Subfamily'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Subfamily</rdfs:label>
+    <rdfs:comment>The taxonomic rank Subfamily</rdfs:comment>
   </kgo:TaxonRank>
 
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Genus'>
@@ -94,5 +166,11 @@
     <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
     <rdfs:label>Species</rdfs:label>
     <rdfs:comment>The taxonomic rank Species</rdfs:comment>
+  </kgo:TaxonRank>
+
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Clade'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Clade</rdfs:label>
+    <rdfs:comment>A group of creatures descended from a common organism.</rdfs:comment>
   </kgo:TaxonRank>
 </rdf:RDF>
